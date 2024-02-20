@@ -3,6 +3,6 @@ unstructured # Document loading
 chromadb # Vector storage
 openai # For embeddings
 tiktoken  # For embeddings
-langchain_openai
-rapidocr-onnxruntime
-MathpixPDFLoader
+langchain_openai # updated 
+rapidocr-onnxruntime # not needed
+MathpixPDFLoader # not needed
