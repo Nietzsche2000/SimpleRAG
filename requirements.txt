@@ -1,4 +1,4 @@
-langchain
+langchain~=0.1.7
 unstructured # Document loading
 chromadb # Vector storage
 openai # For embeddings
@@ -6,3 +6,5 @@ tiktoken  # For embeddings
 langchain_openai # updated 
 rapidocr-onnxruntime # not needed
 MathpixPDFLoader # not needed
+
+datasets~=2.17.1

@@ -1,0 +1,1 @@
+export COHERE_API_KEY="BuoMHnxt5EFv8oqS2PelfRB5GMfwVNcOyYSr87dc"
