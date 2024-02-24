@@ -40,7 +40,9 @@ def main():
         collection_name="wiki",
         embedding_function=embedding_function,
     )
+    print("SEARCHING BEGIN")
     results = db.similarity_search_with_relevance_scores(query_text, k=3)  # SIMILAR DOCUMENTS SEARCH
+    print("SEARCHING END")
     print("RESULTS: " + str(results))  # DISPLAY SEARCH RESULTS
 
     # COMBINE CONTENT OF TOP DOCUMENTS FOR CONTEXT
